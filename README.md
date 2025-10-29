@@ -13,6 +13,7 @@ Features:
 
 Folder Structure:
 
+```
 rust_blockchain/
 │
 ├── Cargo.toml           # Cargo configuration (dependencies, package info)
@@ -23,7 +24,7 @@ rust_blockchain/
 │   │   ├── block.rs     # Block struct, hashing, proof-of-work
 │   │   └── blockchain.rs # Blockchain struct, add block, print chain
 └── README.txt           # This documentation
-
+```
 Dependencies:
 
 This project uses the "sha2" crate for hashing.
